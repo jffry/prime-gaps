@@ -9,3 +9,8 @@ You can generate a CSV with this command (on Windows, use PowerShell and it will
 ```console
 cargo run --release | tee hist.csv
 ```
+
+If you are impatient, I tasked my computer with running this for ~15 hours (on an i7-8700) and the distribution
+after the first 1.5e12 primes is visible (data in the [results/](./results) directory)
+
+![graph of distribution](./results/graph.png)
